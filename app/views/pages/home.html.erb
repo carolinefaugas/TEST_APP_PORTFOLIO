@@ -1,2 +1,465 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style ="background-image: linear-gradient(rgba(137,137,137,0.4),rgba(0,0,0,0.4)),
+  url('https://res.cloudinary.com/dvb6zudlf/image/upload/v1574778120/portfolio/banner.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="row_left">
+          <h1 class="title">Caroline Faugas</h1>
+          <p>cfaugas@hotmail.com <br />
+          Bordeaux / freelance </p><br />
+          <p id="skills">Photoshop / InDesign / Illustrator <br />
+            Figma / Sketch <br /><br />
+            HTML5 / CSS3 / JS / Ruby On Rails <br />
+            Bootstrap <br /><br />
+          Photographie</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6" >
+        <div class="row_right">
+          <h1 class="title">Webdesigner<br />Int&eacute;grateur<br />Emailing</h1>
+          <p><%= link_to "Télécharger CV", download_pdf_path %></p>
+        </div>
+      </div>
+      <div class="chevron w-100 text-center">
+          <a href="#webprint"><i class="chevron fas fa-1x fa-chevron-down pulse"></i></a>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+<!-- W E B -->
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <div  id="webprint">
+        <h2 class="webprint">
+          W<span class="dotcolor">.</span>E<span class="dotcolor">.</span>B
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#gadyamb"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574269127/portfolio/email_gadyamb.jpg" alt="gadyamb">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="gadyamb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Gadyamb </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574269127/portfolio/email_gadyamb.jpg" alt="gadyamb" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Gadyamb</h2>
+              <p><strong>Emailing</strong> responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#briscadieu"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574429250/portfolio/emailing_briscadieu.jpg" alt="Briscadieu">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="briscadieu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Briscadieu </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574429250/portfolio/emailing_briscadieu.jpg" alt="Briscadieu" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Briscadieu</h2>
+              <p><strong>Emailing</strong> responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#antevenio"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574698308/portfolio/infogaphie_nativeadvertising.jpg" alt="Antevenio">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="antevenio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Antevenio </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574698308/portfolio/infogaphie_nativeadvertising.jpg" alt="Antevenio" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Antevenio</h2>
+              <p><strong>Infographie</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#mygreengarden"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574699999/portfolio/greengarden.jpg" alt="mygreengarden">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="mygreengarden" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">My Green Garden </h5>
+
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <a href="http://www.mygreengarden.fr/" target="_blank">www.mygreengarden.fr</a>
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574698541/portfolio/mygreengarden.jpg" alt="mygreengarden" style="width: 450px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>My Green Garden</h2>
+              <p><strong>Projet Wagon</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#superforma"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574698317/portfolio/superforma_email.jpg" alt="superforma">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="superforma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Superforma</h5>
+
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574698317/portfolio/superforma_email.jpg" alt="superforma" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Superforma</h2>
+              <p><strong>Emailing</strong> responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#easyvoyage"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702826/portfolio/infographie_TerredeVoyages.jpg" alt="easyvoyage">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="easyvoyage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Easyvoyage</h5>
+
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702826/portfolio/infographie_TerredeVoyages.jpg" alt="easyvoyage" style="width: 450px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Easyvoyage</h2>
+              <p><strong>Infographie</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- P R I N T -->
+
+
+    <div class="col-12 col-lg-6">
+      <div>
+        <h2 class="webprint">
+          P<span class="dotcolor">.</span>R<span class="dotcolor">.</span>I<span class="dotcolor">.</span>N<span class="dotcolor">.</span>T
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#plv_gadyamb"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574701415/portfolio/plv_gadyamb_print.jpg" alt="gadyamb">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="plv_gadyamb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Gadyamb </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574701415/portfolio/plv_gadyamb_print.jpg" alt="gadyamb" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Gadyamb</h2>
+              <p><strong>PLV</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#photocatalogue"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702376/portfolio/banquette.jpg" alt="retouche photo">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="photocatalogue" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Retouche Photo </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702376/portfolio/meuble.jpg" alt="retouche photo" style="width: 350px;">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702376/portfolio/banquette.jpg" alt="retouche photo" style="width: 350px;">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702375/portfolio/bague.jpg" alt="retouche photo" style="width: 350px;">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574703885/portfolio/ivoire.jpg" alt="retouche photo" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Retouche Photo</h2>
+              <p><strong>Catalogue d'art</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#mimosa"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574700794/portfolio/cafe_mimosa_menu.jpg" alt="Mimosa">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="mimosa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Café Mimosa </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574700794/portfolio/cafe_mimosa_menu.jpg" alt="Mimosa" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Café Mimosa</h2>
+              <p><strong>Menu</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#fairepart"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574701074/portfolio/fairepart.jpg" alt="Faire-Part">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="fairepart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Faire-Part </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574702313/portfolio/fairepart_rv.jpg" alt="Faire-Part" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Faire-part</h2>
+              <p><strong>&nbsp;</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#walle"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574703572/portfolio/walle_s.jpg" alt="walle">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="walle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Vidéo Wall-E </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <a href="https://www.youtube.com/watch?v=9BabCzxbeGA" target="_blank">#WallE #Lego #Blender #Modeselektor</a>
+                      <a href="https://www.youtube.com/watch?v=9BabCzxbeGA" target="_blank"><img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574703471/portfolio/walle.jpg" alt="walle" style="width: 350px;"></a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Wall-E</h2>
+              <p><strong>Projet personnel</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card-product">
+            <div class="img-hover-zoom--colorize">
+              <label for="zoomCheck">
+                <img  data-toggle="modal" data-target="#photogadyamb"  src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574704243/portfolio/teilles_gadyamb.jpg" alt="Gadyamb">
+              </label>
+              <!-- The Modal -->
+              <div class="modal fade" id="photogadyamb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Gadyamb</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574704505/portfolio/bouteilles_gad.jpg" alt="Gadyamb" style="width: 350px;">
+                      <img src="https://res.cloudinary.com/dvb6zudlf/image/upload/v1574704242/portfolio/famille.jpg" alt="Gadyamb" style="width: 350px;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-infos">
+              <h2>Gadyamb</h2>
+              <p><strong>Photo produit</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div>
+  <div class="container">
+    <p class="footer"><span class="curlycolor">{</span><%= link_to "Et aussi, y a de la bonne musique par ici", "https://www.youtube.com/channel/UCZuR1NiBMiyKkVOhUB6Nv8Q/playlists", :target => "_blank", :class=>"test" %><span class="curlycolor">}</span></p>
+  </div>
+</div>
+

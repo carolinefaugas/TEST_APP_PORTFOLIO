@@ -2,3 +2,78 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+.card-category {
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  background-size: cover;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #999;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", "sans-serif";
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: top;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+}
+
+.modal-body {
+  text-align: center !important;
+}
+
+.modal-body img {
+  padding-top: inherit;
+}
+
