@@ -23,6 +23,13 @@ body {
   background-color: #252525 !important;
 }
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+
+}
+
 .title {
   font-family: "Roboto", "sans-serif";
   font-weight: lighter;
@@ -90,7 +97,7 @@ a.test {
 
 .webprint {
   letter-spacing: 10px;
-  padding: 0 30px 0 30px;
+  padding: 10px 30px 0 30px;
   text-align: center;
   font-weight: lighter;
   color: #ffffff;
@@ -108,9 +115,4 @@ a.test {
   font-weight: lighter;
 }
 
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0;
 
-}
